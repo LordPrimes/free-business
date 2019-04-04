@@ -10,6 +10,6 @@ class ViewController extends Controller implements PagesContracts
 {
     public function show()
     {
-        return 'ggg';
+        return view('main');
     }
 }
