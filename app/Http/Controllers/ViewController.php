@@ -12,4 +12,10 @@ class ViewController extends Controller implements PagesContracts
     {
         return view('main');
     }
+
+    public function addcomments(Request $request){
+
+
+        
+    }
 }

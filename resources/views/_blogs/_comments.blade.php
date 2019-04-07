@@ -5,7 +5,7 @@
         <form class="comments__form">
             {{ csrf_field() }} 
             <input class="comments__input" type="text"  name="name" placeholder="name"/>
-            <input class="comments__input" type="text"  name="email" placeholder="Email Address"/>
+            <input class="comments__input" type="text"  name="message" placeholder="message"/>
             <input class="comments__button" type="button" value="MESSAGE NOW"/>
         </form>
     </div>
