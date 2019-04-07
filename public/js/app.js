@@ -52081,12 +52081,6 @@ var app = new Vue({
   el: '#app'
 });
 
-$('.banner__slick').slick({
-  slidesToShow: 1,
-  arrows: false,
-  dots: true,
-  draggable: false
-});
 
 /***/ }),
 

@@ -34,9 +34,3 @@ const app = new Vue({
 
 import slick from 'slick-carousel';
 
-$('.banner__slick').slick({
-    slidesToShow: 1,
-    arrows:false,
-    dots:true,
-    draggable:false
-});
