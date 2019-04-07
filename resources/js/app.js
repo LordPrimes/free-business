@@ -31,3 +31,12 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app'
 });
+
+import slick from 'slick-carousel';
+
+$('.banner__slick').slick({
+    slidesToShow: 1,
+    arrows:false,
+    dots:true,
+    draggable:false
+});

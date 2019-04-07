@@ -34,15 +34,37 @@
   background-image: url("/img/3.png");
   position: relative;
   z-index: 1;
-  width: 500px;
+  top: 100px;
+  width: 648px;
   height: 350px;
   background-repeat: no-repeat;
 }
 
 .banner__img {
   background: url("/img/2.png") no-repeat;
-  height: 300px;
-  position: abosolute;
+  height: 250px;
+  width: 450px !important;
+  top: 18px;
+  left: 104px;
+  position: absolute;
+}
+
+.banner__title {
+  font-size: 35px;
+  font-family: "Gotham", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  line-height: 2.686;
+  text-align: center;
+}
+
+.banner__description {
+  font-size: 15px;
+  font-family: "Gotham", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  line-height: 0.686;
+  text-align: center;
 }
 
 /*!
