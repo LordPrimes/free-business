@@ -8,5 +8,5 @@ class Comments extends Model
 {
     protected $table = 'Comments';
 
-    protected $fillable = ["name", 'message'];
+    protected $fillable = ['name', 'message'];
 }

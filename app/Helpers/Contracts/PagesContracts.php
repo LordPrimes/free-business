@@ -8,5 +8,5 @@ interface PagesContracts {
 
     public function show();
 
-    public function addcomments(Request $request);
+    public function addcomments();
 }

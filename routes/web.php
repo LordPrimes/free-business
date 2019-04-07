@@ -12,3 +12,4 @@
 */
 
 Route::get('/','ViewController@show')->name('main');
+Route::get('/','ViewController@addcomments')->name('test');
